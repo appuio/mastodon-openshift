@@ -5,7 +5,11 @@ As usual, it's a permission thingy.
 
 Read more [here](https://docs.openshift.com/container-platform/4.11/openshift_images/create-images.html#images-create-guide-openshift_create-images) about why this is needed on OpenShift.
 
-Get the image here: LINKTOTHEIMAGE
+Get the image on [ghcr.io](https://github.com/appuio/mastodon-openshift/pkgs/container/mastodon-openshift%2Fmastodon):
+
+```
+docker pull ghcr.io/appuio/mastodon-openshift/mastodon:latest
+```
 
 ## Image Maintenance
 
