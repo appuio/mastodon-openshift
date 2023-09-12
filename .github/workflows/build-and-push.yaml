@@ -32,7 +32,7 @@ jobs:
           echo "TAG=$tag" >> $GITHUB_OUTPUT
       
       - name: Build image and push to GitHub Container Registry
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v5
         with:
           tags: |
             ghcr.io/appuio/mastodon-openshift/mastodon:latest
