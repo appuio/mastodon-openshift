@@ -1,4 +1,4 @@
-FROM docker.io/tootsuite/mastodon:v4.3.1
+FROM docker.io/tootsuite/mastodon:v4.3.2
 
 USER root
 
